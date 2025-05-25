@@ -38,7 +38,7 @@ export const about_Us = [
     },
     {
         num: '05',
-        img: "/assets/images/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/kushan.png",
         title: 'Ediriwickrama E.A.K.V.',
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
@@ -47,7 +47,7 @@ export const about_Us = [
     },
     {
         num: '06',
-        img: "/assets/images/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/gihan.png",
         title: 'Serasinghe G.P.G.Y.',
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
