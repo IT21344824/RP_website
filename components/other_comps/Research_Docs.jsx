@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 const Research_Docs = () => {
     const documents = [
         { name: "Project Charter", file: "IT4010-TAF-24-25J-092.pdf" },
-        { name: "Proposal Document", file: "Proposal Document.zip" },
+        { name: "Proposal Document", file: "ProposalDocument.zip" },
         { name: "Status Documents", file: "StatusDocuments.zip" },
         { name: "Final Document", file: "FinalReports.zip" },
     ];
