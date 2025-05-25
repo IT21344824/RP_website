@@ -36,7 +36,11 @@ const Header = () => {
                 <div className="xl:hidden">
                     <MobileNav />
                 </div>
+
+
             </div>
+            {/* border */}
+            <div className="w-full border-b border-white/60 mt-6"></div>
         </header>
     );
 };

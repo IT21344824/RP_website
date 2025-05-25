@@ -2,7 +2,7 @@
 export const about_Us = [
     {
         num: '01',
-        img: "/assets/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/super.jpg",
         title: 'Mr. Aruna Ishara Gamage',
         description: 'Lecturer, Computer Science and Software Engineering - Computing (FOC) | Supervisor',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
@@ -11,7 +11,7 @@ export const about_Us = [
     },
     {
         num: '02',
-        img: "/assets/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/co-super.jpg",
         title: 'Ms. Vindhya Kalapuge',
         description: 'Lecturer, Computer Science and Software Engineering - Computing (FOC) | Co-Supervisor',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
@@ -20,7 +20,7 @@ export const about_Us = [
     },
     {
         num: '03',
-        img: "/assets/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/akidu.jpg",
         title: 'Ekanayake T.E.M.A.P.',
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
@@ -29,7 +29,7 @@ export const about_Us = [
     },
     {
         num: '04',
-        img: "/assets/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/jr.jpg",
         title: 'Jayawardhana J.R.K.B.',
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
@@ -38,7 +38,7 @@ export const about_Us = [
     },
     {
         num: '05',
-        img: "/assets/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/temp.jpg",
         title: 'Ediriwickrama E.A.K.V.',
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
@@ -47,7 +47,7 @@ export const about_Us = [
     },
     {
         num: '06',
-        img: "/assets/aboutUs/temp.jpg",
+        img: "/assets/images/aboutUs/temp.jpg",
         title: 'Serasinghe G.P.G.Y.',
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',

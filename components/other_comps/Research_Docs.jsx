@@ -3,9 +3,15 @@ import { other_nav } from '@/config/otherConfig copy'
 import { Button } from '../ui/button'
 
 const Research_Docs = () => {
+    const documents = [
+        { name: "Project Charter", file: "IT4010-TAF-24-25J-092.pdf" },
+        { name: "Proposal Document", file: "Proposal Document.zip" },
+        { name: "Status Documents", file: "StatusDocuments.zip" },
+        { name: "Final Document", file: "FinalReports.zip" },
+    ];
+
     return (
         <div>
-
             <div
                 style={{ '--image-url': `url(${other_nav.Research_Documents_hero.img})` }}
                 className='h-96 w-full bg-[image:var(--image-url)] bg-cover bg-center rounded-lg'>
@@ -13,10 +19,18 @@ const Research_Docs = () => {
                     <h1 className="text-white text-2xl font-semibold mb-4">Research Documents</h1>
 
                     <div className='flex flex-wrap justify-center gap-4'>
-                        <Button className="bg-red-800">Project Charter</Button>
-                        <Button className="bg-red-800">Proposal Document</Button>
-                        <Button className="bg-red-800">Status Documents</Button>
-                        <Button className="bg-red-800">Final Document</Button>
+                        {documents.map((doc) => (
+                            <a
+                                key={doc.file}
+                                href={`/assets/files/Research Documents/${doc.file}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button className="bg-red-800">
+                                    {doc.name}
+                                </Button>
+                            </a>
+                        ))}
                     </div>
                 </div>
             </div>

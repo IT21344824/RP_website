@@ -11,18 +11,12 @@ const links = [
     {
         name: 'Domain',
         path: '/domain'
-    }, {
-        name: 'Services',
-        path: '/services'
     },
     {
         name: 'About us',
         path: '/about_us'
     },
-    {
-        name: 'Resume',
-        path: '/resume'
-    },
+
     {
         name: 'Contact',
         path: '/contact_us'
