@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { about_Us } from '@/config/aboutUsConfig'
+import Akidu_Social from "@/components/aboutUs_comps/Akidu_Social";
 
 
 
@@ -52,6 +53,16 @@ const AboutUs = () => {
                                 <p className="text-white/60 text-center">{service.description}</p>
                             )}
                             <p className="text-center cursor-pointer text-blue-400">{service.email}</p>
+
+                            <div className="flex gap-4 -mt-3">
+                                {service.links}
+                                {/* <Akidu_Social
+                                    containerStyles="flex gap-6"
+                                    iconStyles="w-9 h-9 border boder-accent rounded-full flex
+                  justify-center items-center text-accent text-base hover:bg-accent
+                  hover:text-primary hover:transitio-all duration-500"
+                                /> */}
+                            </div>
                             {/* border */}
                             <div className="w-full border-b border-white/60"></div>
                         </div>

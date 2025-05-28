@@ -1,3 +1,7 @@
+import Akidu_Social from "@/components/aboutUs_comps/Akidu_Social";
+import Gihan_Social from "@/components/aboutUs_comps/Gihan_Social";
+import JR_Social from "@/components/aboutUs_comps/JR_Social";
+import Kushan_Social from "@/components/aboutUs_comps/Kushan_Social";
 
 export const about_Us = [
     {
@@ -7,7 +11,8 @@ export const about_Us = [
         description: 'Lecturer, Computer Science and Software Engineering - Computing (FOC) | Supervisor',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
         address: 'New Kandy Road, Malabe, Sri Lanka',
-        email: "ishara.g@sliit.lk"
+        email: "ishara.g@sliit.lk",
+       
     },
     {
         num: '02',
@@ -25,7 +30,13 @@ export const about_Us = [
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
         address: 'New Kandy Road, Malabe, Sri Lanka',
-        email: "IT21344824@my.sliit.lk"
+        email: "IT21344824@my.sliit.lk",
+       links:<Akidu_Social
+                                    containerStyles="flex gap-6"
+                                    iconStyles="w-9 h-9 border boder-accent rounded-full flex
+                  justify-center items-center text-accent text-base hover:bg-accent
+                  hover:text-primary hover:transitio-all duration-500"
+                                />,
     },
     {
         num: '04',
@@ -34,7 +45,13 @@ export const about_Us = [
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
         address: 'New Kandy Road, Malabe, Sri Lanka',
-        email: "IT21352294@my.sliit.lk"
+        email: "IT21352294@my.sliit.lk",
+       links:<JR_Social
+                                    containerStyles="flex gap-6"
+                                    iconStyles="w-9 h-9 border boder-accent rounded-full flex
+                  justify-center items-center text-accent text-base hover:bg-accent
+                  hover:text-primary hover:transitio-all duration-500"
+                                />,
     },
     {
         num: '05',
@@ -43,7 +60,13 @@ export const about_Us = [
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
         address: 'New Kandy Road, Malabe, Sri Lanka',
-        email: "IT21273094@my.sliit.lk"
+        email: "IT21273094@my.sliit.lk",
+       links:<Kushan_Social
+                                    containerStyles="flex gap-6"
+                                    iconStyles="w-9 h-9 border boder-accent rounded-full flex
+                  justify-center items-center text-accent text-base hover:bg-accent
+                  hover:text-primary hover:transitio-all duration-500"
+                                />,
     },
     {
         num: '06',
@@ -52,6 +75,12 @@ export const about_Us = [
         description: 'Student',
         company: 'Department of Information Technology faculty of Computing Sri Lanka Institute of Information Technology',
         address: 'New Kandy Road, Malabe, Sri Lanka',
-        email: "IT21360978@my.sliit.lk"
+        email: "IT21360978@my.sliit.lk",
+       links:<Gihan_Social
+                                    containerStyles="flex gap-6"
+                                    iconStyles="w-9 h-9 border boder-accent rounded-full flex
+                  justify-center items-center text-accent text-base hover:bg-accent
+                  hover:text-primary hover:transitio-all duration-500"
+                                />,
     },
 ];
